@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    overflow:hidden;
+    background:#313338;
+    color:white;
+    font-family:sans-serif;
+}
+
+#app{
+    display:flex;
+    height:100vh;
+}
+
+#sidebar{
+    width:250px;
+    background:#1e1f22;
+    padding:15px;
+}
+
+#sidebar h2{
+    margin-bottom:15px;
+}
+
+#users{
+    margin-top:15px;
+}
+
+.user{
+    padding:10px;
+    background:#2b2d31;
+    margin-bottom:5px;
+    cursor:pointer;
+}
+
+.user:hover{
+    background:#3a3d44;
+}
+
+#chat{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+#messages{
+    flex:1;
+    overflow-y:auto;
+    padding:15px;
+}
+
+.message{
+    margin-bottom:10px;
+}
+
+#inputBar{
+    display:flex;
+    padding:10px;
+    background:#232428;
+}
+
+#messageInput{
+    flex:1;
+    padding:10px;
+}
+
+#sendBtn{
+    margin-left:10px;
+    padding:10px;
+}
